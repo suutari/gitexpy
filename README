@@ -1,0 +1,66 @@
+Gitexpy - Git experiments in Python
+===================================
+
+Gitexpy is a collection of Python scripts that can be (and have been)
+used for experimenting with Git data structures and algorithms.
+
+All scripts are Copyright (C) 2012 Tuomas Suutari.
+
+Gitexpy is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+Gitexpy is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Gitexpy.  If not, see <http://www.gnu.org/licenses/>.
+
+Contents:
+
+ * Git object inspection
+    git_object_model.py
+
+ * Git packfile unpacking
+    pack.py
+    stream_pack.py
+
+ * difference calculation
+    diff.py
+    difftable.py
+
+ * zlib deflate decompression
+    deflate.py
+    parse_zlib_deflate_stream.py
+    show_deflate_codetable_sizes.py
+    zlibstream.py
+
+ * Huffman coding
+    huffman.py
+
+ * delta coding
+    delta.py
+    delta_diff.py
+    git_delta.py
+
+ * Rabin fingerprinting
+    binarypolynomial.py
+    irreduciblepolynomials.py
+    nip_testing.py
+    rabin.py
+    randompolynomial.py
+
+ * Rabin splitter
+    blockify.py
+
+ * General tools / algorighms
+    binprint.py
+    crc.py
+    chrconvert.py
+    memoize.py
+    primes.py
+    randomstring.py
+    sixx.py
